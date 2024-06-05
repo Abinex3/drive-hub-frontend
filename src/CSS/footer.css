@@ -1,0 +1,127 @@
+#footer-container {
+    /* border: 1px solid red; */
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding: 20px 150px 20px 100px;
+    display: flex;
+}
+
+
+
+.contact-container {
+    /* display: flex; */
+    width: 45%;
+    /* border: 1px solid red; */
+    padding-left: 30px;
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.--contact {
+    width: 20%;
+}
+
+.contact-sub {
+    color: gray;
+    font-size: 13px;
+    width: 350px;
+}
+
+.contact-- {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 13px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.ans {
+    margin: 0;
+    font-size: 14px;
+}
+
+.txt {
+    font-size: 14px;
+    color: gray;
+}
+
+.dd {
+    /* border: 1px solid red; */
+    margin-right: 25px;
+}
+
+.input-box {
+    display: flex;
+}
+
+.input-box input {
+    width: 150px;
+    background-color: rgb(33, 30, 30);
+    padding: 10px 25px 10px 15px;
+}
+
+.sub-button {
+    background-color: rgb(131, 208, 131);
+    border: none;
+    margin-left: 10px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+.icon-container .fa-brands {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #footer-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-container {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .--contact {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-sub {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .dd {
+        margin-right: 0;
+    }
+
+    .input-box input {
+        width: 100%;
+    }
+
+    .icon-container {
+        margin-top: 10px;
+    }
+}
+

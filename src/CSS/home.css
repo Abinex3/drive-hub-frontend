@@ -1,0 +1,287 @@
+#home-container {
+    background-color: rgb(238, 237, 237);
+    padding: 20px 120px 20px 120px;
+}
+
+.slide-container {
+    background-image: url('../assests/slide-1.jpeg');
+    background-position-x: -50px;
+    height: 55vh;
+    padding: 80px 20px 40px 90px;
+}
+
+.offer {
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.content-title {
+    /* border: 1px solid red; */
+    width: 450px;
+    padding: 5px 10px 5px 0px;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.content-sub {
+    width: 300px;
+    padding: 5px 10px 5px 0px;
+    font-size: 18px;
+    color: rgb(157, 152, 152);
+    /* font-weight: 700; */
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.brand-container {
+    /* border: 1px solid blue; */
+    padding: 20px 0 20px 0;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-details {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 18px 44px 18px 44px;
+}
+
+.brand-logo {
+    width: 70px;
+}
+
+.banner-conatainer {
+    margin-top: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.banner-box {
+    /* border: 1px solid blue; */
+    padding: 10px 0 20px 20px;
+    background-image: url('../assests/banner1.jpeg'); 
+    box-shadow: 176px -8px 74px 4px rgba(0,0,0,0.94) inset;
+-webkit-box-shadow: 176px -8px 74px 4px rgba(0,0,0,0.94) inset;
+-moz-box-shadow: 176px -8px 74px 4px rgba(0,0,0,0.94) inset;
+    height: 23vh;
+    width: 50%;
+}
+
+
+.--box {
+    margin-left: 15px;
+    background-image: url('../assests/banner2.jpeg'); 
+}
+
+.---box {
+    margin-right: 15px;
+}
+
+.free-shipping {
+    display: flex;
+}
+
+.shopping-button {
+    padding: 15px 35px 15px 35px;
+    background-color: #65D55B;
+    border: none;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.image-slider-button span{
+    /* border: 1px solid red; */
+    /* background-color: rgb(142, 247, 142); */
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    /* padding: 0px 10px 0px 10px; */
+    margin-right: 10px;
+
+}
+
+.image-slider-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.first-slide {
+    background-color: rgb(142, 247, 142);
+}
+
+.second-slide, .third-slide {
+    background-color: rgb(204, 203, 203);
+    /* border: 1px solid red; */
+}
+
+
+
+.brand-text {
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 70px;
+    color: gray;
+}
+
+.banner-title {
+    font-size: 25px;
+    font-weight: 500;
+    color: yellow;
+    /* margin: 0; */
+    margin-bottom: 10px;
+}
+
+.banner-sub {
+    width: 300px;
+    color: white;
+    margin: 0;
+    margin-top: 0;
+}
+
+.banner-button {
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(236, 90, 90);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.--title {
+    background-color: yellow;
+    display: inline-block;
+    color: black;
+    padding: 3px 5px 3px 5px;
+}
+
+.service-container {
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.service-box {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+
+.service-box p {
+    margin: 0;
+}
+
+.service-name {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.service-sub {
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #home-container {
+        background-color: rgb(238, 237, 237);
+        padding: 20px 20px 20px 20px;
+    }
+
+    .slide-container {
+        padding: 40px 20px 10px 30px;
+        display: flex;
+    }
+
+    .slide-content{
+
+        display: grid;
+        place-items: center;
+        
+    }
+
+    .offer {
+        padding: 5px 10px 5px 10px;
+        font-size: 20px;
+    }
+
+    .content-title {
+        /* border: 1px solid red; */
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .content-sub{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .brand-container {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .brand-details {
+        border: 1px solid rgb(209, 206, 206);
+        display: inline-block;
+        padding: 18px 44px 18px 44px;
+    }
+
+    .banner-conatainer{
+        flex-direction: column;
+    }
+
+
+    .banner-box {
+        padding: 0px 0 20px 0px;
+        height: 23vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .--box {
+        margin-left: 0px; 
+    }
+
+    .delivary-logo{
+        width: 30px;
+        position: relative;
+        left: 35px;
+    }
+
+    .free-shipping {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .service-box>p{
+        text-align: center;
+    }
+
+    .service-box>.service-name, .service-box>.service-sub{
+        font-size: 14px;
+    }
+}
+
+
+
